@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "with=device-width, initial-scale=1.0">
+        <title>IITH</title>
+        <link rel="icon" type="image/x-icon" href="/Images/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+        
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <section class = "header">
+            <nav>
+                <a href = "index.html"><img src ="Images/logo.png"></a>
+                <div class = "nav-links" id = "navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick ="hideMenu()"></i>
+                    <ul>
+                        <li><a href = "">HOME</a></li>
+                        <li><a href = "">ABOUT</a></li>
+                        <li><a href = "">RESEARCH</a></li>
+                        <li><a href = "">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick = "showMenu()"></i>
+            </nav>
+
+            <div class = "text-box">
+                <h1>Indian Institute of Technology, Hyderabad</h1>
+                <p>Inventing and Innovating in Technology for Humanity (IITH) </p>
+                <a href="" class = "button1">Visit our homepage</a>
+            </div>
+        </section>
+
+        <!--Campus Life-->
+        <section class = "campus">
+            <h1>Campus Life</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <div class="row">
+                <div class="col1">
+                    <h3>Library</h3>
+                    <p>IITH has a well equipped library with more than 20,000 books and 10,000 periodicals. The books include reference books as well as the ones for regular circulation. IITH also has an internal repository of scholarly publications made by its faculty and students.</p>
+                </div>
+                <div class="col2">
+                    <p><img src ="Images/library.jpg"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col2">
+                    <p><img src ="Images/Hostel.jpeg" ></p>
+                </div>
+                <div class="col1">
+                    <h3>Hostels</h3>
+                    <p>IITH offers very comfortable accommodation for its students. To beat the heat during summer the hostels are designed with radiant cooling technique. Every student is provided a single room with basic infrastructure such as bed, cupboard and a study table.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col1">
+                    <h3>Mess</h3>
+                    <p>IITH as a common dining facility for its students, staff, and faculty. Both north Indian and south Indian varieties are served in the dining hall. The quality of food is regularly inspected by the student representatives and the wardens</p>
+                </div>
+                <div class="col2">
+                    <p><img src ="Images/mess.jpeg"></p>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Programmes-->
+        <section class="programme">
+            <h1>Programmes Offered</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+            <div class="row">
+                <div class="col1">
+                    <h3>BTech</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col1">
+                    <h3>MTech</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col1">
+                    <h3>Doctoral Program</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--What our Students say-->
+        <section class="feedback">
+            <h1>What our Students say</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+            <div class="row">
+                <div class="col3">
+                    <p><img src ="Images/user1.jpg"></p>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <h3>Danielle, BTech 4th year</h3>
+                    </div>
+                </div>
+
+                <div class="col3">
+                    <p><img src ="Images/user2.jpg"></p>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <h3>Rohan, PHD</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+        </section>
+
+        <!--Javascript-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+    </body>
+</html>
